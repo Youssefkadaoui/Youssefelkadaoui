@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youssef El Kadaoui - استشارات تقنية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Youssef El Kadaoui - استشارات تقنية</h1>
+    <p>استشارات في الهواتف، الكمبيوتر والأجهزة الإلكترونية</p>
+</header>
+
+<section>
+    <h2>طلب استشارة</h2>
+    <p>يرجى ملء النموذج أدناه لطلب استشارة أو مساعدة تقنية:</p>
+    
+    <form action="mailto:youssefelkadaoui981@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="الاسم" required>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        <textarea name="message" placeholder="مشكلة أو استفسار" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+    </form>
+</section>
+
+<footer>
+    <p>التواصل عبر الهاتف: 0609236744</p>
+    <p>موقعك الإلكتروني بواسطة Youssef El Kadaoui</p>
+</footer>
+
+</body>
+</html>
